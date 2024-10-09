@@ -3,9 +3,15 @@ import time
 import xml.etree.ElementTree as ET
 import os
 
-# Constants
-URL = "http://PLEXIP:32400/status/sessions?X-Plex-Token=PLEXTOKENHERE"
-HEADERS = {'X-Plex-Token': 'PlexTokenHERE'}
+# Edit these constants
+
+PLEXIP = 'PLEXIPHERE'
+PLEXTOKEN = 'PLEXTOKENHERE'
+
+# Don't touch anything after here
+
+URL = "http://"+PLEXIP+":32400/status/sessions?X-Plex-Token="+PLEXTOKEN
+HEADERS = {'X-Plex-Token': PLEXTOKEN}
 
 # Function to fetch and parse XML data
 def fetch_data(url, headers):
