@@ -1,5 +1,5 @@
 # PlexAmpCliStatus
-A small python script to see what's playing on plexamp
+A small python or c# script to see what's playing on plexamp
 "screenshot"
 ![Alt text](ScreenshotPlexCLI01.png)
 
